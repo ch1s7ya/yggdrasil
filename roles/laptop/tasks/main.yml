@@ -1,0 +1,9 @@
+---
+- name: Install packages
+  ansible.builtin.apt:
+    name:
+      - fish
+      - git
+      - nmap
+      - python3-venv
+    update_cache: yes

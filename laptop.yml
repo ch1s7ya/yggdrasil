@@ -1,0 +1,6 @@
+---
+- name: Setup laptop
+  hosts:
+    - laptop
+  roles:
+    - laptop

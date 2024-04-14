@@ -1,0 +1,7 @@
+---
+- name: Install packages
+  ansible.builtin.apt:
+    name:
+      - raspi-config
+      - sense-hat
+    update_cache: yes
